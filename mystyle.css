@@ -1,5 +1,32 @@
+.body {
+  background-color: #D6B346
+}
+
+.title {
+  position: ;
+}
+
+.functions {
+   
+}
 
 
-h1 {
-	color: red;
+.random {
+  width: 100%
+}
+#random {
+  display: block;
+  margin: 0 auto;
+  text-align: center
+}
+
+#criteria {
+  
+  margin: 0 auto;
+  text-align: center;
+  width: 75%
+}
+
+#result {
+  text-align: center
 }

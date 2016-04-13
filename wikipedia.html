@@ -6,13 +6,27 @@
   <script src="js.js"></script>
   
 </head>
-<body>
-  <h1> Hello world </h1>
-  <button class="btn" id="random">Random</button>
-  
-  <input type="text" placeholder="Search" id="criteria">
-    <button id="search">this button submits the form</button>
- 
+<body class="body">
+  <div class="container title">
+    <h1 style="text-align: center">Wikipedia Viewer</h1>
+    <div class="row functions">
+      <div class="col-xs-4">
+      </div>
+      <div class="col-xs-4 rando">
+        <a id="random">Random Wikipedia Article</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+    </div>
+    <div class="col-xs-5">
+      <input type="text" placeholder="Search" id="criteria">
+      <button id="search">Search</button>
+    </div>
+  </div>
+  <span id="result">  </span>
 
-  <span id="result"> result goes here </span>
+
+  </div>
 </body>
