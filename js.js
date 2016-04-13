@@ -6,7 +6,7 @@ $(document).ready(function() {
 	})
     
 	$("#search").click(function(){
-		$.getJSON("https://en.wikipedia.org/w/api.php?action=query&titles="+ criteria + "Main%20Page&prop=revisions&rvprop=content&format=json&callback=?", function(json){
+		$.getJSON("https://en.wikipedia.org/w/api.php?action=query&titles="+ criteria + "&prop=revisions&rvprop=content&format=json&callback=?", function(json){
 			result = JSON.stringify(json);
 			$("#result").html(result)
 		})
